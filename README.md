@@ -53,6 +53,7 @@ Todos avaliados com:
 ```bash
 git clone https://github.com/gabrielbdoc/churn-prediction.git
 cd churn-prediction
-
+```
 2. Instale os pacotes
+```bash
 pip install -r requirements.txt
