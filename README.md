@@ -52,7 +52,6 @@ Todos avaliados com:
 1. Clone o repositório:
 ```bash
 git clone https://github.com/gabrielbdoc/churn-prediction.git
-cd churn-prediction
 ```
 2. Instale os pacotes
 ```bash
