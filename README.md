@@ -56,3 +56,11 @@ git clone https://github.com/gabrielbdoc/churn-prediction.git
 2. Instale os pacotes
 ```bash
 pip install -r requirements.txt
+```
+
+## Conclusão (resumo)
+O projeto alcançou resultados satisfatórios na tarefa de previsão de churn, com a Regressão Logística apresentando o melhor desempenho geral entre os modelos testados (AUC = 0.83 e AP = 0.62). XGBoost e Random Forest com SMOTE também mostraram performance consistente, ambos com AUC = 0.81.
+
+As curvas ROC e Precision-Recall indicam boa capacidade de discriminação dos modelos. No entanto, as matrizes de confusão revelaram uma tendência considerável à geração de falsos positivos, o que merece atenção especial, principalmente em contextos onde ações baseadas em previsões equivocadas possam implicar custos ou experiências negativas para clientes.
+
+Para uma análise mais detalhada, incluindo gráficos comparativos e insights sobre os modelos utilizados, acesse a seção Conclusão no final do notebook Churn.ipynb.
